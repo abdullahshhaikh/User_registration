@@ -1,1 +1,28 @@
-{}
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.11",
+    "mongoose": "^5.13.7",
+    "validator": "^13.6.0"
+  },
+  "name": "User_registeration",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahshhaikh/User_registration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdullahshhaikh/User_registration/issues"
+  },
+  "homepage": "https://github.com/abdullahshhaikh/User_registration#readme",
+  "description": ""
+}

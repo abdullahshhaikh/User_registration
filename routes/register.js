@@ -17,6 +17,16 @@ router.post("/register",async(req,res)=>{
     }
 })
 
+router.post("/login",async(req,res)=>{
+    const user = await Register.findByCredentials(req.body.email,req.body.password)
+    res.send(user)
+})
+
+
+router.get("/login",async(req,res)=>{
+    res.render('login')
+})
+
 router.get("/register",async(req,res)=>{
     res.render('register')
 })
